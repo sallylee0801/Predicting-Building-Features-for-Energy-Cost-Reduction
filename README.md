@@ -1,4 +1,4 @@
-# Predicting-Building-Features-for-Energy-Cost-Reduction
+# Predicting Building Features for Energy Cost Reduction
 
 ## Team Member
 - [Sally Lee](https://github.com/sallylee0801)
