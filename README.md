@@ -23,6 +23,7 @@ To be able to find conduct precise feature selection, we started with feature en
 
 ### Linear Regression Model (GLM)
 The first model engineering method we use is GLM model, as the target variable appears to be a Gamma distribution, we will be comparing it with our baseline model (OLS)
+
 <img width="431" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/01fde7f0-434a-49b3-af8a-d1f50654bc80">
 * The target variable is right skewed, Non-negative, Continuous non zero variable.
 
