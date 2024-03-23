@@ -26,7 +26,7 @@ The first model engineering method we use is GLM model, as the target variable a
 
 <img width="431" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/01fde7f0-434a-49b3-af8a-d1f50654bc80">
 
-* The target variable is right skewed, Non-negative, Continuous non zero variable (as appeared in the qq-plot).
+* The target variable is right skewed, non-negative, continuous non zero variable (as appeared in the qq-plot).
 
 <img width="448" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/4fde7137-eb55-4eb8-821b-cd560114b7b1">
 
@@ -48,7 +48,10 @@ Using Random forest, we conducted the feature importance. The significant featur
 ### Explainable AI (SHAP)
 We use SHAP (SHapley Additive exPlanations) because it provides flexibility to understand feature importance both locally and globally, unlike Random Forest feature importance which does not explain individual instances. Additionally, SHAP enables us to demonstrate the direction of feature impact, making it a valuable tool for interpreting machine learning models.
 
-
 <img width="405" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/4464c0b7-0e50-4095-b59e-12c6dc8db72e">
 
+Temperature: SHAP values indicate that temperature is a key factor influencing energy usage. Colder average temperatures in January tend to increase energy usage, likely due to higher heating demands.
 
+Building Type: SHAP values show that the function of a building (e.g., warehouses or living spaces) strongly predicts energy usage. Different building types have varying energy needs, with some types requiring more energy than others.
+
+Size: While size is a significant factor, SHAP values reveal that compact spaces may have higher energy use in certain instances. This could be due to less efficient use of energy or higher energy activities concentrated in smaller areas.
