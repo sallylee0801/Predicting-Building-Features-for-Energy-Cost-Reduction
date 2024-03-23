@@ -33,8 +33,7 @@ The first model engineering method we use is GLM model, as the target variable a
 However, when comparing the GLM model with our baseline model, it appears that both models are poor fit for the data, warranting rejection of using the method.
 
 ### Machine learning Model (Random Forest)
-We started by calculating the RMSE and r-squared of each machine learning method, RMSE measures the average difference between the observed values and the predicted values by the model
-where as R-squared value represents the proportion of variance in the dependent variable that is explained by the independent variables in the model. We found that ==random forest== has the lowest RMSE and highest r-squared
+Initially, we assessed the performance of different machine learning methods by calculating their RMSE (Root Mean Square Error) and r-squared values. RMSE quantifies the average difference between observed and predicted values by the model, while r-squared indicates the proportion of variance in the dependent variable explained by the independent variables. Our analysis revealed that the random forest model exhibited the lowest RMSE and the highest r-squared value among the methods evaluated.
 
 <img width="397" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/64e512c9-f793-4ff0-9f14-ecf5a4563c98">
 
