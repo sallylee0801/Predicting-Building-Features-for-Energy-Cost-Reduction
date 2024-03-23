@@ -34,7 +34,7 @@ However, when comparing the GLM model with our baseline model, it is appears tha
 
 ### Machine learning Model (Random Forest)
 We started by calculating the RMSE and r-squared of each machine learning method, RMSE measures the average difference between the observed values and the predicted values by the model
-where as R-squared value represents the proportion of variance in the dependent variable that is explained by the independent variables in the model. We found that random forest has the lowest RMSE and highest r-squared
+where as R-squared value represents the proportion of variance in the dependent variable that is explained by the independent variables in the model. We found that ==random forest== has the lowest RMSE and highest r-squared
 
 <img width="397" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/64e512c9-f793-4ff0-9f14-ecf5a4563c98">
 
