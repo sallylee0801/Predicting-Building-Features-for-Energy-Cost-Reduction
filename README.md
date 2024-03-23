@@ -30,7 +30,7 @@ The first model engineering method we use is GLM model, as the target variable a
 
 <img width="448" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/4fde7137-eb55-4eb8-821b-cd560114b7b1">
 
-However, when comparing the GLM model with our baseline model, it is appears that both models are poor fit for the data, warranting rejection of using the method.
+However, when comparing the GLM model with our baseline model, it appears that both models are poor fit for the data, warranting rejection of using the method.
 
 ### Machine learning Model (Random Forest)
 We started by calculating the RMSE and r-squared of each machine learning method, RMSE measures the average difference between the observed values and the predicted values by the model
@@ -55,3 +55,15 @@ Temperature: SHAP values indicate that temperature is a key factor influencing e
 Building Type: SHAP values show that the function of a building (e.g., warehouses or living spaces) strongly predicts energy usage. Different building types have varying energy needs, with some types requiring more energy than others.
 
 Size: While size is a significant factor, SHAP values reveal that compact spaces may have higher energy use in certain instances. This could be due to less efficient use of energy or higher energy activities concentrated in smaller areas.
+
+
+## Recommendation and Next Step
+- Focus on Insulation and Heating Efficiency
+Since January temperatures have a significant impact, improving insulation and heating efficiency in buildings could lead to substantial energy savings
+
+- Differentiate by Building Type
+Implement energy conservation measures tailored to different building categories, recognizing that warehouses, service areas, living spaces, and social institutions have unique energy profiles
+
+- Analyze Small Space Energy Use
+Investigate why smaller floor areas might correspond to higher energy usage. Consider energy audits to identify inefficiencies or high-energy-use equipment in smaller spaces
+
