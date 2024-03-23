@@ -18,7 +18,7 @@ This project aims to identify building features correlated with high energy cons
 
 ## Approach
 ### Feature engineering
-To be able to find conduct precise feature selection, we started with feature engineering to eluminate nuances in the data
+To be able to conduct precise feature selection, we started with feature engineering to eluminate nuances in the data
 <img width="915" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/e77a11fe-c09b-4e1c-9b4c-b0118d879f7a">
 
 ### Linear Regression Model (GLM)
