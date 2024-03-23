@@ -15,3 +15,7 @@ This project aims to identify building features correlated with high energy cons
 - Captures energy usage across various building types
 - Each row corresponds to a specific building facility at a distinct location
 - Target: site_eui (Site Energy Usage Intensity)
+
+## Approach
+### Feature engineering
+<img width="915" alt="image" src="https://github.com/sallylee0801/Predicting-Building-Features-for-Energy-Cost-Reduction/assets/156154849/e77a11fe-c09b-4e1c-9b4c-b0118d879f7a">
